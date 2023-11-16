@@ -1,3 +1,15 @@
+# Personal Note 
+
+How OpenAI Trains 
+Train the diffusion model on objaverse-xl dataset:
+1. Download objaverse-xl dataset locally
+2. Find how to train diffusions model within the code
+3. Run diffusion model training 
+4. Run the updated model with parameters on Colab
+
+
+
+
 # Shap-E
 
 This is the official code and model release for [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/abs/2305.02463).
