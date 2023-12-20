@@ -1,4 +1,4 @@
-# Personal Note 
+# Personal Note: Fine tune this model to a game-related dataset
 
 How OpenAI Trains 
 Train the diffusion model on objaverse-xl dataset:
