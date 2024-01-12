@@ -67,7 +67,7 @@ def decode_latent_mesh(
     latent: torch.Tensor,
 ) -> TorchMesh:
     decoded = xm.renderer.render_views(
-        AttrDict(cameras=create_pan_cameras(2, latent.device)),  # lowest resolution possible
+        AttrDict(cameras=create_pan_cameras(8, latent.device)),  # default is 2 for lowest resolution possible, higher # of cameras gives better quality but >16 runs into runtime errors
         params=(xm.encoder if isinstance(xm, Transmitter) else xm).bottleneck_to_params(
             latent[None]
         ),
