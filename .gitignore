@@ -2,3 +2,5 @@ __pycache__/
 .DS_Store
 *.egg-info/
 .3DPeople_sample/
+shap_e/examples/.ipynb_checkpoints/
+shap_e/examples/shap_e_model_cache/
